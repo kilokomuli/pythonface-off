@@ -26,3 +26,7 @@ def fizzbuzz():
         else:
             print(f"{i:d}")
 fizzbuzz()
+
+# arguments are often shortened to args in python documentations
+# * a function receives a tuple of arguments.. if you do not know how many arguments you will pass to a function, add a * before the parameter name in the function definition.
+# Keyword Arguments often shortened to kwargs **kwargs..function receives a dictionary of arguments
